@@ -10,13 +10,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="//db.onlinewebfonts.com/c/769f77adc143f65cc1db42ae784ab1af?family=PartyTimeLTW01-Drunk" rel="stylesheet" type="text/css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="SimplePage_css.css">
+    <link rel="stylesheet" type="text/css" href="css/SimplePage_css.css">
     <title>challenge.me | your source of lols</title>
 </head>
 
-<body>
+<body class="drunk" onload="myMessage()">
 
   <div class="jumbotron text-center" style="margin-bottom:0">
     <h1>Your grow enceaudi. <br/> Cli more getents.</h1>
@@ -46,10 +47,10 @@
   <div class="container" style="margin-top:30px">
     <div class="row">
       <div class="col-sm-4">
-        <h2>About Me</h2>
-        <h5>Photo of me:</h5>
+        <h2 id="js_test"></h2>
+        <h5 id="careful">Here I go:</h5>
         <div class="img"></div>
-          <img src="balão.jpg" alt="balão voando">
+          <img id="baloon_img" src="balão.jpg" alt="balão voando">
         <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
         <h3>Some Links</h3>
         <p>Lorem ipsum dolor sit ame.</p>
@@ -88,6 +89,9 @@
   <div class="jumbotron text-center" style="margin-bottom:0">
     <p>Footer</p>
 </div>
+
+<script src="js/SimplePage_js.js"></script>
+
 
 </body>
 </html>
